@@ -4,7 +4,6 @@ using HotChocolate;
 
 namespace CommanderGQL.Models
 {
-    [GraphQLDescription("Represents any software or service that has a command line interface")]
     public class Platform
     {
         [Key]
